@@ -6,8 +6,6 @@ Este repositorio contiene un juego desarrollado en Python (Pygame) para entender
 ## Parte 1: Instalación y Configuración de ChatDev
 
 Para poder utilizar el entorno multi-agente que generó este código, es necesario configurar ChatDev localmente siguiendo estos pasos:
-<img width="830" height="419" alt="image" src="https://github.com/user-attachments/assets/1a24fc00-f72b-4e25-a9a9-5cd07b9aee66" />
-
 
 ### 1. Clonar el repositorio
 Descargamos el código oficial de ChatDev:
@@ -20,7 +18,12 @@ Creamos y activamos un entorno aislado para no crear conflictos:
 
 conda create -n ChatDev_conda_env python=3.12 -y
 
+<img width="830" height="419" alt="image" src="https://github.com/user-attachments/assets/a1c58eb2-6c07-4558-b420-e2d0bda52dcb" />
+
 conda activate ChatDev_conda_env
+
+<img width="483" height="79" alt="image" src="https://github.com/user-attachments/assets/ea1080f9-8de7-4b33-8dbd-6c6b11589fb5" />
+
 
 
 ### 3. Instalar Dependencias
@@ -29,6 +32,8 @@ Dentro de la carpeta de ChatDev, instalamos las librerías necesarias:
 cd ChatDev
 
 pip3 install -r requirements.txt
+
+<img width="847" height="409" alt="image" src="https://github.com/user-attachments/assets/733e2055-436d-479e-ae32-f63785fc56ce" />
 
 (Si alguna librería da error, se instala manualmente con `pip install nombre_libreria`).
 
