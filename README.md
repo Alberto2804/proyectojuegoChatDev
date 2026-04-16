@@ -33,6 +33,7 @@ pip3 install -r requirements.txt
 Para usar modelos avanzados sin coste, modificamos el archivo `.env.example` renombrándolo a `.env` y lo configuramos:
 
 API_KEY="tu_clave_de_groq_aqui_gsk_..."
+
 BASE_URL="https://api.groq.com/openai/v1"
 
 
