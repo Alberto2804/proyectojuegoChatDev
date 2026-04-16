@@ -25,6 +25,7 @@ conda activate ChatDev_conda_env
 Dentro de la carpeta de ChatDev, instalamos las librerías necesarias:
 
 cd ChatDev
+
 pip3 install -r requirements.txt
 
 (Si alguna librería da error, se instala manualmente con `pip install nombre_libreria`).
@@ -43,10 +44,12 @@ Para que el sistema use el modelo de Groq en lugar de OpenAI, editamos el archiv
 ### 6. Ejecutar el Servidor y la Interfaz
 Necesitamos dos terminales de Miniconda abiertas simultáneamente:
 - **Terminal 1 (Backend):** En la carpeta ChatDev y con el entorno activado:
+- 
   python server_main.py --port 6400
 
 - **Terminal 2 (Frontend):** Entramos en la carpeta `frontend` y ejecutamos:
   npm install
+  
   npm run dev
 
 Accedemos a `http://localhost:5173` en el navegador para ver la plataforma DevAll.
