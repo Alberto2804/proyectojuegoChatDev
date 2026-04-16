@@ -44,10 +44,11 @@ Para que el sistema use el modelo de Groq en lugar de OpenAI, editamos el archiv
 ### 6. Ejecutar el Servidor y la Interfaz
 Necesitamos dos terminales de Miniconda abiertas simultáneamente:
 - **Terminal 1 (Backend):** En la carpeta ChatDev y con el entorno activado:
-- 
+  
   python server_main.py --port 6400
 
 - **Terminal 2 (Frontend):** Entramos en la carpeta `frontend` y ejecutamos:
+  
   npm install
   
   npm run dev
