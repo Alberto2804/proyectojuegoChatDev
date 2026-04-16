@@ -54,11 +54,17 @@ Necesitamos dos terminales de Miniconda abiertas simultáneamente:
   
   python server_main.py --port 6400
 
+  <img width="782" height="149" alt="image" src="https://github.com/user-attachments/assets/166af2bc-ebc5-4a07-91ec-a96cf52821a5" />
+
+
 - **Terminal 2 (Frontend):** Entramos en la carpeta `frontend` y ejecutamos:
   
   npm install
   
   npm run dev
+
+  <img width="758" height="425" alt="image" src="https://github.com/user-attachments/assets/a469d7d1-0bd5-49a8-bb5c-fe7d42b358fd" />
+
 
 Accedemos a `http://localhost:5173` en el navegador para ver la plataforma DevAll.
 
@@ -67,6 +73,9 @@ Accedemos a `http://localhost:5173` en el navegador para ver la plataforma DevAl
 ## 🎮 Parte 2: Cómo usar la aplicación (El Juego Cuántico)
 
 A través de la interfaz DevAll (pestaña Launch), seleccionamos nuestro YAML modificado e introducimos nuestro Prompt pidiendo el juego en Python. El resultado es el archivo `main.py` incluido en este repositorio.
+
+<img width="959" height="412" alt="image" src="https://github.com/user-attachments/assets/3c7ec574-ba06-4523-aadd-2878e26a655d" />
+
 
 ### Requisitos previos
 Para jugar, asegúrate de tener instalada la librería Pygame en tu entorno Python:
@@ -77,6 +86,9 @@ pip install pygame
 Navega a la carpeta de este repositorio y ejecuta el archivo principal:
 
 python main.py
+
+<img width="655" height="442" alt="image" src="https://github.com/user-attachments/assets/228a2a10-1e43-4f00-b489-12490e0e8e47" />
+
 
 
 ### Controles y Mecánicas
