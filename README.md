@@ -18,9 +18,9 @@ Creamos y activamos un entorno aislado para no crear conflictos:
 
 conda create -n ChatDev_conda_env python=3.12 -y
 
-<img width="830" height="419" alt="image" src="https://github.com/user-attachments/assets/a1c58eb2-6c07-4558-b420-e2d0bda52dcb" />
-
 conda activate ChatDev_conda_env
+
+<img width="830" height="419" alt="image" src="https://github.com/user-attachments/assets/a1c58eb2-6c07-4558-b420-e2d0bda52dcb" />
 
 <img width="483" height="79" alt="image" src="https://github.com/user-attachments/assets/ea1080f9-8de7-4b33-8dbd-6c6b11589fb5" />
 
