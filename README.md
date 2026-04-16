@@ -6,6 +6,8 @@ Este repositorio contiene un juego desarrollado en Python (Pygame) para entender
 ## Parte 1: Instalación y Configuración de ChatDev
 
 Para poder utilizar el entorno multi-agente que generó este código, es necesario configurar ChatDev localmente siguiendo estos pasos:
+<img width="830" height="419" alt="image" src="https://github.com/user-attachments/assets/1a24fc00-f72b-4e25-a9a9-5cd07b9aee66" />
+
 
 ### 1. Clonar el repositorio
 Descargamos el código oficial de ChatDev:
